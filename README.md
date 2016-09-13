@@ -7,7 +7,8 @@
 
 ## Contributing
 The whole point of this repo is to have Boots send in links they think are great.
-If you have something you want to contribute,
+If you have something you want to contribute, that's great! First things first though, we have to build the app.
+
 - Fork this repo.
 - Find a User story you want to work on.
 - Switch to a feature branch named after the general idea of your submission.
