@@ -1,0 +1,17 @@
+!!!
+%html{:lang => "en"}
+  %head
+    %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    /
+      normalize.css removes cross-browser differences in defaults, e.g.,
+      differences in how form elements appear between Firefox and IE
+      See: http://necolas.github.com/normalize.css/
+    %link{:href => "/stylesheets/normalize.css", :rel => "stylesheet"}/
+    /
+      application.css is where you put your styles
+    %link{:href => "/stylesheets/application.css", :rel => "stylesheet"}/
+    %script{:src => "//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"}
+    %script{:src => "/js/application.js"}
+    %title
+  %body
+    = yield

@@ -1,6 +1,4 @@
-# Boot Prints
-
-#### Deployed @ [bootPrints](https://bootprints.herokuapp.com/)
+# [Boot Prints](https://bootprints.herokuapp.com/)
 
 ### A collection of resources crowd sourced from Boots.
 - Add cool resources - Tools, Tips, Tutorials

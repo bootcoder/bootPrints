@@ -15,6 +15,7 @@ GEM
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
     arel (6.0.0)
+    awesome_print (1.7.0)
     backports (3.6.4)
     builder (3.2.2)
     capybara (2.4.4)
@@ -28,6 +29,8 @@ GEM
       activesupport (>= 3.0.0)
     faker (1.4.3)
       i18n (~> 0.5)
+    haml (4.0.7)
+      tilt
     i18n (0.7.0)
     json (1.8.2)
     mime-types (2.4.3)
@@ -56,6 +59,7 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.2.0)
     rspec-support (3.2.0)
+    sass (3.4.22)
     shotgun (0.9)
       rack (>= 1.0)
     shoulda-matchers (2.8.0)
@@ -84,13 +88,16 @@ PLATFORMS
 DEPENDENCIES
   activerecord (~> 4.2.0)
   activesupport (~> 4.2.0)
+  awesome_print
   capybara
   factory_girl
   faker
+  haml
   pg
   rack-test
   rake
   rspec (~> 3.0)
+  sass
   shotgun
   shoulda-matchers
   sinatra

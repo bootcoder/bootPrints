@@ -14,6 +14,10 @@ gem 'rake'
 
 gem 'shotgun'
 
+gem 'haml'
+gem 'awesome_print'
+gem 'sass'
+
 group :test do
   gem 'shoulda-matchers'
   gem 'rack-test'
